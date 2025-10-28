@@ -55,4 +55,4 @@ dotnet run
     Click Return to submit the book back to the library.
 
 ## Screenshots
-<img width="1919" height="987" alt="home" src="https://github.com/user-attachments/assets/346a36ea-6815-4822-9336-1cf13b53a911" />
+![Home Page](https://github.com/AdityaVawhal/LibraryApp/blob/main/assets/home.png)
