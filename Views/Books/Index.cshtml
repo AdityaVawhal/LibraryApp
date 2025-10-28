@@ -1,0 +1,45 @@
+@using Microsoft.AspNetCore.Http
+@inject IHttpContextAccessor HttpContextAccessor
+@model List<LibraryApp.Models.Book>
+
+@{
+    ViewData["Title"] = "Books";
+    var role = HttpContextAccessor.HttpContext?.Session.GetString("UserRole");
+}
+
+@if (TempData["Error"] != null)
+{
+    <div class="bg-red-100 text-red-700 px-4 py-2 rounded mb-4">
+        @TempData["Error"]
+    </div>
+}
+
+@if (TempData["Success"] != null)
+{
+    <div class="bg-green-100 text-green-700 px-4 py-2 rounded mb-4">
+        @TempData["Success"]
+    </div>
+}
+
+<form method="get" class="mb-4 flex">
+    <input type="text" name="search" placeholder="Search books..." class="border rounded-l px-3 py-2 flex-1" />
+    <button class="bg-blue-600 text-white px-4 py-2 rounded-r">Search</button>
+</form>
+
+@if (role == "Admin")
+{
+    <a href="/Books/Add" class="bg-green-600 text-white px-3 py-2 rounded inline-block mb-4">Add Book</a>
+}
+
+<div class="grid md:grid-cols-3 gap-4 mt-5">
+@foreach (var book in Model)
+{
+    <div class="border rounded-lg shadow p-4 bg-white">
+        <h3 class="font-bold text-lg">@book.Title</h3>
+        <p class="text-gray-600">by @book.Author</p>
+        <p class="text-sm mt-2">Genre: @book.Genre</p>
+        <p class="text-sm">Quantity: @book.Quantity</p>
+        <a href="/Books/Details/@book.Id" class="text-blue-600 mt-3 inline-block">View</a>
+    </div>
+}
+</div>

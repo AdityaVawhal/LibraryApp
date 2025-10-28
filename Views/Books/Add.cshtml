@@ -1,0 +1,10 @@
+@model LibraryApp.Models.Book
+<h2 class="text-2xl font-bold mb-4">Add Book</h2>
+
+<form asp-action="Add" method="post" class="space-y-3">
+    <input asp-for="Title" placeholder="Title" class="border p-2 w-full" />
+    <input asp-for="Author" placeholder="Author" class="border p-2 w-full" />
+    <input asp-for="Genre" placeholder="Genre" class="border p-2 w-full" />
+    <input asp-for="Quantity" placeholder="Quantity" class="border p-2 w-full" type="number" />
+    <button class="bg-blue-600 text-white px-4 py-2 rounded">Add</button>
+</form>

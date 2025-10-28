@@ -1,0 +1,68 @@
+﻿@using Microsoft.AspNetCore.Http
+@inject IHttpContextAccessor HttpContextAccessor
+
+@{
+    var userName = HttpContextAccessor.HttpContext?.Session.GetString("UserName");
+    var userRole = HttpContextAccessor.HttpContext?.Session.GetString("UserRole");
+    bool isLoggedIn = !string.IsNullOrEmpty(userName);
+}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>@ViewData["Title"] - HomePage</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body class="bg-gray-100 min-h-screen flex flex-col">
+    <!-- Navbar -->
+    <header class="bg-white shadow">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="/Books" class="text-2xl font-bold text-blue-700">Library Management App</a>
+
+            <nav class="space-x-4 flex items-center">
+                <a href="/Books" class="text-gray-700 hover:text-blue-600">Books</a>
+
+                @if (isLoggedIn)
+                {
+                    <a href="/Borrow/MyBooks" class="text-gray-700 hover:text-blue-600">My Books</a>
+
+                    @if (userRole == "Admin")
+                    {
+                        <a href="/Borrow" class="text-gray-700 hover:text-blue-600">Borrow Records</a>
+                    }
+
+                    <span class="text-gray-600">Hi, <b>@userName</b>
+                        @if (userRole == "Admin")
+                        {
+                            <span class="text-xs bg-yellow-200 px-2 py-1 rounded ml-1">Librarian</span>
+                        }
+                    </span>
+
+                    <a href="/Account/Logout" class="bg-red-600 text-white px-3 py-1 rounded hover:bg-red-700">Logout</a>
+                }
+                else
+                {
+                    <a href="/Account/Login" class="text-gray-700 hover:text-blue-600">Login</a>
+                    <a href="/Account/Register"
+                        class="bg-blue-600 text-white px-3 py-1 rounded hover:bg-blue-700">Register</a>
+                }
+            </nav>
+        </div>
+    </header>
+
+    <!-- Page Content -->
+    <main class="flex-1 container mx-auto px-6 py-6">
+        @RenderBody()
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-white text-center py-4 text-gray-600 border-t">
+        &copy; @DateTime.Now.Year - LibraryApp | Created by Aditya (202303103510365)
+    </footer>
+</body>
+
+</html>

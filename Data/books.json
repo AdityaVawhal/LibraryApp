@@ -1,0 +1,322 @@
+[
+  {
+    "Id": 1,
+    "Title": "Clean Code",
+    "Author": "Robert C. Martin",
+    "Genre": "Programming",
+    "Quantity": 3,
+    "IsAvailable": true
+  },
+  {
+    "Id": 2,
+    "Title": "The Pragmatic Programmer",
+    "Author": "Andrew Hunt",
+    "Genre": "Programming",
+    "Quantity": 7,
+    "IsAvailable": true
+  },
+  {
+    "Id": 3,
+    "Title": "Design Patterns",
+    "Author": "Erich Gamma",
+    "Genre": "Programming",
+    "Quantity": 5,
+    "IsAvailable": true
+  },
+  {
+    "Id": 4,
+    "Title": "Refactoring",
+    "Author": "Martin Fowler",
+    "Genre": "Programming",
+    "Quantity": 4,
+    "IsAvailable": true
+  },
+  {
+    "Id": 5,
+    "Title": "You Don\u0027t Know JS",
+    "Author": "Kyle Simpson",
+    "Genre": "Programming",
+    "Quantity": 5,
+    "IsAvailable": true
+  },
+  {
+    "Id": 6,
+    "Title": "Atomic Habits",
+    "Author": "James Clear",
+    "Genre": "Self-Help",
+    "Quantity": 8,
+    "IsAvailable": true
+  },
+  {
+    "Id": 7,
+    "Title": "Deep Work",
+    "Author": "Cal Newport",
+    "Genre": "Self-Help",
+    "Quantity": 5,
+    "IsAvailable": true
+  },
+  {
+    "Id": 8,
+    "Title": "The 7 Habits of Highly Effective People",
+    "Author": "Stephen R. Covey",
+    "Genre": "Self-Help",
+    "Quantity": 10,
+    "IsAvailable": true
+  },
+  {
+    "Id": 9,
+    "Title": "Rich Dad Poor Dad",
+    "Author": "Robert Kiyosaki",
+    "Genre": "Finance",
+    "Quantity": 6,
+    "IsAvailable": true
+  },
+  {
+    "Id": 10,
+    "Title": "The Intelligent Investor",
+    "Author": "Benjamin Graham",
+    "Genre": "Finance",
+    "Quantity": 3,
+    "IsAvailable": true
+  },
+  {
+    "Id": 11,
+    "Title": "Harry Potter and the Sorcerer\u0027s Stone",
+    "Author": "J.K. Rowling",
+    "Genre": "Fantasy",
+    "Quantity": 9,
+    "IsAvailable": true
+  },
+  {
+    "Id": 12,
+    "Title": "The Hobbit",
+    "Author": "J.R.R. Tolkien",
+    "Genre": "Fantasy",
+    "Quantity": 6,
+    "IsAvailable": true
+  },
+  {
+    "Id": 13,
+    "Title": "The Lord of the Rings",
+    "Author": "J.R.R. Tolkien",
+    "Genre": "Fantasy",
+    "Quantity": 5,
+    "IsAvailable": true
+  },
+  {
+    "Id": 14,
+    "Title": "Game of Thrones",
+    "Author": "George R.R. Martin",
+    "Genre": "Fantasy",
+    "Quantity": 4,
+    "IsAvailable": true
+  },
+  {
+    "Id": 15,
+    "Title": "A Clash of Kings",
+    "Author": "George R.R. Martin",
+    "Genre": "Fantasy",
+    "Quantity": 3,
+    "IsAvailable": true
+  },
+  {
+    "Id": 16,
+    "Title": "The Great Gatsby",
+    "Author": "F. Scott Fitzgerald",
+    "Genre": "Fiction",
+    "Quantity": 7,
+    "IsAvailable": true
+  },
+  {
+    "Id": 17,
+    "Title": "To Kill a Mockingbird",
+    "Author": "Harper Lee",
+    "Genre": "Fiction",
+    "Quantity": 8,
+    "IsAvailable": true
+  },
+  {
+    "Id": 18,
+    "Title": "1984",
+    "Author": "George Orwell",
+    "Genre": "Fiction",
+    "Quantity": 6,
+    "IsAvailable": true
+  },
+  {
+    "Id": 19,
+    "Title": "Pride and Prejudice",
+    "Author": "Jane Austen",
+    "Genre": "Romance",
+    "Quantity": 5,
+    "IsAvailable": true
+  },
+  {
+    "Id": 20,
+    "Title": "The Alchemist",
+    "Author": "Paulo Coelho",
+    "Genre": "Fiction",
+    "Quantity": 9,
+    "IsAvailable": true
+  },
+  {
+    "Id": 21,
+    "Title": "Becoming",
+    "Author": "Michelle Obama",
+    "Genre": "Biography",
+    "Quantity": 4,
+    "IsAvailable": true
+  },
+  {
+    "Id": 22,
+    "Title": "Steve Jobs",
+    "Author": "Walter Isaacson",
+    "Genre": "Biography",
+    "Quantity": 3,
+    "IsAvailable": true
+  },
+  {
+    "Id": 23,
+    "Title": "Elon Musk",
+    "Author": "Ashlee Vance",
+    "Genre": "Biography",
+    "Quantity": 5,
+    "IsAvailable": true
+  },
+  {
+    "Id": 24,
+    "Title": "Sapiens: A Brief History of Humankind",
+    "Author": "Yuval Noah Harari",
+    "Genre": "History",
+    "Quantity": 7,
+    "IsAvailable": true
+  },
+  {
+    "Id": 25,
+    "Title": "Homo Deus",
+    "Author": "Yuval Noah Harari",
+    "Genre": "History",
+    "Quantity": 6,
+    "IsAvailable": true
+  },
+  {
+    "Id": 26,
+    "Title": "A Brief History of Time",
+    "Author": "Stephen Hawking",
+    "Genre": "Science",
+    "Quantity": 4,
+    "IsAvailable": true
+  },
+  {
+    "Id": 27,
+    "Title": "The Theory of Everything",
+    "Author": "Stephen Hawking",
+    "Genre": "Science",
+    "Quantity": 3,
+    "IsAvailable": true
+  },
+  {
+    "Id": 28,
+    "Title": "Cosmos",
+    "Author": "Carl Sagan",
+    "Genre": "Science",
+    "Quantity": 5,
+    "IsAvailable": true
+  },
+  {
+    "Id": 29,
+    "Title": "The Selfish Gene",
+    "Author": "Richard Dawkins",
+    "Genre": "Science",
+    "Quantity": 6,
+    "IsAvailable": true
+  },
+  {
+    "Id": 30,
+    "Title": "The Art of War",
+    "Author": "Sun Tzu",
+    "Genre": "Philosophy",
+    "Quantity": 10,
+    "IsAvailable": true
+  },
+  {
+    "Id": 31,
+    "Title": "Meditations",
+    "Author": "Marcus Aurelius",
+    "Genre": "Philosophy",
+    "Quantity": 7,
+    "IsAvailable": true
+  },
+  {
+    "Id": 32,
+    "Title": "Man\u2019s Search for Meaning",
+    "Author": "Viktor E. Frankl",
+    "Genre": "Psychology",
+    "Quantity": 5,
+    "IsAvailable": true
+  },
+  {
+    "Id": 33,
+    "Title": "Thinking, Fast and Slow",
+    "Author": "Daniel Kahneman",
+    "Genre": "Psychology",
+    "Quantity": 8,
+    "IsAvailable": true
+  },
+  {
+    "Id": 34,
+    "Title": "The Power of Habit",
+    "Author": "Charles Duhigg",
+    "Genre": "Self-Help",
+    "Quantity": 6,
+    "IsAvailable": true
+  },
+  {
+    "Id": 35,
+    "Title": "The Lean Startup",
+    "Author": "Eric Ries",
+    "Genre": "Business",
+    "Quantity": 5,
+    "IsAvailable": true
+  },
+  {
+    "Id": 36,
+    "Title": "Zero to One",
+    "Author": "Peter Thiel",
+    "Genre": "Business",
+    "Quantity": 4,
+    "IsAvailable": true
+  },
+  {
+    "Id": 37,
+    "Title": "Start With Why",
+    "Author": "Simon Sinek",
+    "Genre": "Business",
+    "Quantity": 6,
+    "IsAvailable": true
+  },
+  {
+    "Id": 38,
+    "Title": "Cracking the Coding Interview",
+    "Author": "Gayle Laakmann McDowell",
+    "Genre": "Programming",
+    "Quantity": 3,
+    "IsAvailable": true
+  },
+  {
+    "Id": 39,
+    "Title": "Head First Design Patterns",
+    "Author": "Eric Freeman",
+    "Genre": "Programming",
+    "Quantity": 5,
+    "IsAvailable": true
+  },
+  {
+    "Id": 40,
+    "Title": "The Mythical Man-Month",
+    "Author": "Frederick P. Brooks Jr.",
+    "Genre": "Software Engineering",
+    "Quantity": 4,
+    "IsAvailable": true
+  }
+]
