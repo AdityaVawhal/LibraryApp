@@ -97,3 +97,4 @@ C:\Users\ACER\Desktop\Sem 5\Dotnet Project\LibraryApp\obj\Debug\net9.0\refint\Li
 C:\Users\ACER\Desktop\Sem 5\Dotnet Project\LibraryApp\obj\Debug\net9.0\LibraryApp.pdb
 C:\Users\ACER\Desktop\Sem 5\Dotnet Project\LibraryApp\obj\Debug\net9.0\LibraryApp.genruntimeconfig.cache
 C:\Users\ACER\Desktop\Sem 5\Dotnet Project\LibraryApp\obj\Debug\net9.0\ref\LibraryApp.dll
+C:\Users\ACER\Desktop\Sem 5\Dotnet Project\LibraryApp\obj\Debug\net9.0\LibraryApp.sourcelink.json

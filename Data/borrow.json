@@ -19,5 +19,12 @@
     "UserId": 2,
     "BorrowDate": "2025-10-26T17:35:45.9070406+05:30",
     "ReturnDate": null
+  },
+  {
+    "Id": 4,
+    "BookId": 2,
+    "UserId": 2,
+    "BorrowDate": "2025-10-28T20:02:22.8754268+05:30",
+    "ReturnDate": null
   }
 ]
