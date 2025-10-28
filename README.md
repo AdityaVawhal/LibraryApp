@@ -19,7 +19,7 @@ This project allows users to **register, login, browse books, borrow and return 
 ---
 
 ## Installation Steps
-
+```
 1. **Clone the repository**
 
 git clone <YOUR_GITHUB_URL>
@@ -27,7 +27,7 @@ cd LibraryApp
 
 1. **Run the Project**
 dotnet run
-
+```
 
 
 ## How to Use
