@@ -56,3 +56,7 @@ dotnet run
 
 ## Screenshots
 ![Home Page](https://github.com/AdityaVawhal/LibraryApp/blob/main/assets/home.png)
+![Registration Page](https://github.com/AdityaVawhal/LibraryApp/blob/main/assets/register.png)
+![Book adding Page managed by Admin](https://github.com/AdityaVawhal/LibraryApp/blob/main/assets/add_book.png)
+![Book detail Page where user can borrow a book](https://github.com/AdityaVawhal/LibraryApp/blob/main/assets/book_detail_borrow.png)
+![My book page where user can see his book history for borrow or return](https://github.com/AdityaVawhal/LibraryApp/blob/main/assets/mybooks.png)
