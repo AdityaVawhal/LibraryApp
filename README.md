@@ -33,24 +33,25 @@ dotnet run
 ## How to Use
 
 1. First Registration
-    The first user to register becomes the Admin (Librarian)
+    The first user to register becomes the Admin (Librarian) (here in data/user.json we already had an admin whose email: admin@gmail.com / password:admin)
     Admin can add books and manage the library
 
 2. Subsequent Users
-    Any other user will have User role
+    Any other user will have User role (Now you can register and Login new User not admin because it is already register.)
+    TO register as Admin you have to remove all data from user.json or you can update value directly from code for admin role.
     Users can browse books, borrow, and return books
     Users cannot add books
 
-3. Login
+4. Login
     Navigate to /Account/Login
     Admin and Users use the same login page
 
-4. Borrow Books
+5. Borrow Books
     Click on View on a book
     If logged in, click Borrow to borrow the book
     Borrowed books are tracked in borrow.json
 
-5. Return Books
+6. Return Books
     Go to My Books (in navbar)
     Click Return to submit the book back to the library.
 
