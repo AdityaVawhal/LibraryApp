@@ -7,12 +7,4 @@
     "Role": "Admin",
     "LibraryId": "LIB-0001"
   },
-  {
-    "Id": 2,
-    "Name": "Vedant",
-    "Email": "xyz@gmail.com",
-    "Password": "xyz",
-    "Role": "User",
-    "LibraryId": "LIB-0002"
-  }
 ]
