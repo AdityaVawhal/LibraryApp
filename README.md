@@ -21,7 +21,7 @@ This project allows users to **register, login, browse books, borrow and return 
 ## Installation Steps
 
 1. **Clone the repository**
-```bash
+
 git clone <YOUR_GITHUB_URL>
 cd LibraryApp
 
@@ -30,7 +30,7 @@ dotnet run
 
 
 
-# How to Use
+## How to Use
 
 1. First Registration
     The first user to register becomes the Admin (Librarian)
