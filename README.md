@@ -52,5 +52,7 @@ dotnet run
 
 5. Return Books
     Go to My Books (in navbar)
-    Click Return to submit the book back to the library"# LibraryApp" 
-"# LibraryApp" 
+    Click Return to submit the book back to the library.
+
+## Screenshots
+<img width="1919" height="987" alt="home" src="https://github.com/user-attachments/assets/346a36ea-6815-4822-9336-1cf13b53a911" />
